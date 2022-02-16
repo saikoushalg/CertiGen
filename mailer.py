@@ -43,4 +43,5 @@ def certimailer(subject, body, sender_email, participant_email, password):
         print("Mail sent successfully to", participant_email)
 
 
-certimailer(subject, body, sender_email, participant_email, password)
+def certimailer(subject, body, sender_email, participant_email, password):
+    pass
